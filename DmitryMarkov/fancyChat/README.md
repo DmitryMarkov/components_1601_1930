@@ -10,8 +10,6 @@ sass --watch chat/sass:chat
 ### Questions
 
 - кнопка показа/скрытия чата отделена в HTML от виджета. Можно ли как-то сделать ее внутри, не теряя функциональности?
-- _showHideChat в chat.js можно ли оптимизировать выбор таргета, при условии что к иконке внутри кнопки может быть добавлен текст и другие элементы?
-- on() и trigger() наверно стоит вынести на глобальный уровень, чтобы не повторять в каждом классе?
 
 ### TODO
 
@@ -33,3 +31,8 @@ sass --watch chat/sass:chat
 - [ ] my own background
 - [ ] webpack conf
 - [ ] generic form component with extends
+- [ ] DataService class with fetch/json
+- [ ] Botik class
+- [ ] Event apply class
+- [ ] Optimize toggle chat
+- [ ] Move to my repo
